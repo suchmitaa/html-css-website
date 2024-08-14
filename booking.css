@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center; 
+}
+nav img{
+	width: 150px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	
+	list-style:none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a
+{
+a:link{color:green;}
+a:visited {     color:white; }
+a:hover {     color:#8B008B; }
+a:active {      color:DarkOliveGreen}
+	color:#fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+form.c2
+{
+	margin-left:500px;
+}
+input[type=text] {
+  width: 50%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+body
+{
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	position:relative;
+}
